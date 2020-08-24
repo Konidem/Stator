@@ -1,0 +1,40 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+stack_t	KEYWORD1
+State	KEYWORD1
+
+#######################################
+# Functions (KEYWORD2)
+#######################################
+
+StackCreate         KEYWORD2
+StackDestroy        KEYWORD2
+StackGetCapacity    KEYWORD2
+StackGetSize        KEYWORD2
+StackPush           KEYWORD2
+StackPop            KEYWORD2
+StackPeek           KEYWORD2
+
+StateInit           KEYWORD2
+StateCreate         KEYWORD2
+StateCreateFrom     KEYWORD2
+StateDestroy        KEYWORD2
+StatePush           KEYWORD2
+StatePop            KEYWORD2
+StatePeek           KEYWORD2
+
+#######################################
+# Structures (KEYWORD3)
+#######################################
+
+state_s	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
