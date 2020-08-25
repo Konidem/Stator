@@ -27,7 +27,7 @@
  */
 struct state_s {
 	void (*btn_pressed)(void); /* Button pressed callback */
-	void (*state_pushed)(void); /* State poped callback */
+	void (*state_pushed)(void); /* State pushed callback */
 	void (*state_poped)(void); /* State poped callback */
 };
 
