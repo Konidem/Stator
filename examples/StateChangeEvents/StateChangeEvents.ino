@@ -66,7 +66,7 @@ void setup() {
 
 	state2 = StateCreate();
 	/* When state2 is pushed it'll immediately pop itself */
-	state2->state_pushed = StatePop();
+	state2->state_pushed = &StatePop;
 	/* When state2 is poped it'll toggle LED */
 	state2->state_poped = &toggleLED;
 
