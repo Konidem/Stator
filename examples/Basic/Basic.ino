@@ -52,12 +52,6 @@ void IRQHandler() {
 
 void setup() {
 	/* Init state machine, set maximal depth of states to 2 */
-	/* This is fake limitation made only to speed up execution */
-	/* If you cannot decide on how many states deep will your */
-	/* program be, add following line before including stator.h */
-	/* #define SR_USE_LINKED_LIST */
-	/* This will remove this limitation but slow things down */
-	/* a little bit. It's up to you */
 	StateInit(sizeof(state_s), 2);
 
 	/* Create states */
